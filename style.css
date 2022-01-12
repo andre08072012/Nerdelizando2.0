@@ -73,11 +73,23 @@ html{
     margin: auto;
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
     width: 100%;
+    background-color: aqua;
+    border: 1px solid black;
+    border-radius: 10px;
 }
 .artigo img{
-    width: 500px;
+    width: 200px;
     margin: 20px;
     border-radius: 20px 0;
+}
+.ancora{
+    display: flex;
+}
+.banner img{
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 5px;
 }
 
