@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 *{
     margin: 0;
@@ -69,18 +69,25 @@ html{
 .conteudo h2{
     font-size: 35px;
 }
+.escolha p{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+}
 .artigo{
     margin: auto;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     width: 100%;
-    background-color: aqua;
+    background-color: #8420B3;
     border: 1px solid black;
     border-radius: 10px;
 }
 .artigo img{
     width: 200px;
+    height: 105px;
     margin: 20px;
     border-radius: 20px 0;
 }
