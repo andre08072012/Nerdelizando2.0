@@ -80,6 +80,7 @@ html{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
     width: 100%;
     background-color: #8420B3;
     border: 1px solid black;
