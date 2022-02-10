@@ -10,7 +10,7 @@
 }
 html{
     overflow-x: hidden;
-    max-width: 1200px;
+    max-width: 1250px;
     margin: auto;
 }
 .nav-bar{
@@ -129,4 +129,21 @@ html{
 
 .politica a:hover{
     color: #fff;
+}
+
+@media (max-width: 750px){
+    .baner{
+        display: flex;
+        flex-direction: column;
+    }
+    .baner h1{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    .baner p{
+        font-size: .8em;
+        text-align: center;
+    }
 }
