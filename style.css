@@ -78,20 +78,32 @@ html{
     font-family: 'Roboto', sans-serif;
 }
 .artigo{
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+    padding: 30px;    
     width: 100%;
-    background-color: #8420B3;
+    height: 100%;
     border: 1px solid black;
-    border-radius: 10px;
+    
+}
+.artigo h3{
+    font-size: 1.5em;
+    margin-left: 30px;
+    padding: 20px;
+}
+.artigo h5{
+    font-size: 1em;
+    text-align: center;
+    margin: 30px;
+}
+.artigo p{
+    text-indent: 30px;
+    text-align: justify;
 }
 .artigo img{
-    width: 200px;
-    height: 105px;
-    margin: 20px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 100%;
     border-radius: 20px 0;
 }
 .ancora{
