@@ -159,3 +159,8 @@ html{
         text-align: center;
     }
 }
+
+.insta{
+    display: flex;
+    justify-content: center;
+}
