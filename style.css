@@ -108,6 +108,7 @@ html{
 }
 .ancora{
     display: flex;
+    margin: 20px;
 }
 .banner img{
     border: 1px solid black;
@@ -141,23 +142,6 @@ html{
 
 .politica a:hover{
     color: #fff;
-}
-
-@media (max-width: 750px){
-    .baner{
-        display: flex;
-        flex-direction: column;
-    }
-    .baner h1{
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        align-items: center;
-    }
-    .baner p{
-        font-size: .8em;
-        text-align: center;
-    }
 }
 
 .insta{
